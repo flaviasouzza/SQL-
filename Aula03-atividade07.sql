@@ -5,21 +5,21 @@ SELECT *
    
 SELECT *
   FROM aluno
- WHERE nome LIKE 'Diogo'
-   OR nome LIKE 'Rodrigo';
+ WHERE nome LIKE 'Flavio'
+   OR nome LIKE 'Flavia';
    
 SELECT *
   FROM aluno
- WHERE nome LIKE 'Diogo'
-    OR nome LIKE 'Rodrigo'
-	OR nome LIKE 'Nico%';
+ WHERE nome LIKE 'Flavio'
+    OR nome LIKE 'Flavia'
+	OR nome LIKE 'Elciene%';
 	
 SELECT *
   FROM aluno
- WHERE nome LIKE '%Steppat'
-	AND nome LIKE 'Nico%';
+ WHERE nome LIKE '%Flavio'
+	AND nome LIKE 'Elciene%';
 	
 SELECT *
   FROM aluno
- WHERE nome LIKE 'Diogo'
-	OR nome LIKE 'Nico%';
+ WHERE nome LIKE 'Flavio'
+	OR nome LIKE 'Elciene%';
